@@ -1,13 +1,9 @@
 require 'sinatra'
 
-# get '/' do
-#   "Hello World. This is Danny's server!"
-# end
+get '/' do 
+  redirect '/hello.txt'
+end
 
-# get '/shit' do
-#   "Hello World"
-# end
-
-# get '/sinatra' do
-#   "Hello Sinatra"
-# end
+#use redirect '/filename.txt' to set
+#the default path to the filname in
+#public folder.
