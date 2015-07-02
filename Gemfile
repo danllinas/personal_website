@@ -7,4 +7,7 @@ ruby "2.2.2" #this tells heroku to install this
 #then just have to tell heroku what gems you would like.
 #can be as many as you want. 
 gem "sinatra"
+gem "nokogiri"
+gem "httparty"
+
 
